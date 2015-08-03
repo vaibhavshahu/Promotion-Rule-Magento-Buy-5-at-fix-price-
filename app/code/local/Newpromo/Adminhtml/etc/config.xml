@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Newpromo_Adminhtml>
+            <version>1.0.0</version>
+        </Newpromo_Adminhtml>
+	</modules>
+	<global>
+		<blocks>
+				<adminhtml>
+					<rewrite>					
+						<promo_quote_edit_tab_actions>Newpromo_Adminhtml_Block_Promo_Quote_Edit_Tab_Actions</promo_quote_edit_tab_actions>
+					</rewrite>
+				</adminhtml>
+		</blocks>
+	</global> 	
+</config>
